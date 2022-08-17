@@ -1,0 +1,16 @@
+baseURL = 'https://opensource.suse.com/awesome-open-source-guides/'
+languageCode = 'en-us'
+title = 'Awesome Open Source Guides'
+theme = 'hugo-geekdoc'
+
+[params]
+  geekdocLogo = "suse_logo.svg"
+
+  geekdocRepo = "https://github.com/SUSE/awesome-open-source-guides"
+  geekdocEditPath = "edit/main/"
+
+#  geekdocMenuBundle = true
+
+  [params.geekdocContentLicense]
+    name = "CC0 1.0 Universal"
+    link = "https://creativecommons.org/publicdomain/zero/1.0/"
